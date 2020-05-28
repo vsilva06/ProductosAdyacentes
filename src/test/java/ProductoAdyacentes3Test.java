@@ -27,6 +27,6 @@ public class ProductoAdyacentes3Test {
     @Test
     public void ProductoAdyacentes32() {
         int[] arr2 = {1, -1, 1, -1, 1, -1};
-        assertEquals(120, p.productoAdyacentes3(arr2));
+        assertEquals(-1, p.productoAdyacentes3(arr2));
     }
 }
