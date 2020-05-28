@@ -6,14 +6,15 @@ import static org.junit.Assert.*;
 
 public class ProductoAdyacentes3Test {
 
-    private ProductoAdyacentes3 p = new ProductoAdyacentes3();
+    private ProductoAdyacentes3 p;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp(){
+        p = new ProductoAdyacentes3();
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
     }
 
     @Test
