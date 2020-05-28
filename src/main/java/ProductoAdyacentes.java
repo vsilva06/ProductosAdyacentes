@@ -3,8 +3,8 @@ import java.util.ArrayList;
 class ProductoAdyacentes {
 
     
-    int productoAdyacentes(int[] arr){
-        int mayor = 0;
+    long productoAdyacentes(int[] arr){
+        long mayor = 0;
 
         if(arr==null){
             System.out.println("Error, arreglo vacio");
@@ -49,8 +49,8 @@ class ProductoAdyacentes {
         }
         return mayor;
     }
-    float productoAdyacentes(float[] arr){
-        float mayor = 0;
+    double productoAdyacentes(float[] arr){
+        double mayor = 0;
 
         if(arr==null){
             System.out.println("Error, arreglo vacio");
