@@ -19,10 +19,10 @@ public class ProductoAdyacentes2Test {
 
     @Test
     public void productoAdyacente() {
-       // String num0[] = {"1", "2", "3"};
-       // double num1[] = {1, 2.2, 5, 0.32};
-       // System.out.println(c.productoAdyacente(num0));
-       // System.out.println(c.productoAdyacente(num1));
+       double[] num0 = {1073741823, 1073741823, 1073741545};
+        System.out.println(c.productoAdyacente(num0));
 
     }
+
+
 }

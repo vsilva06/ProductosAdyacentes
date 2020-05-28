@@ -11,6 +11,16 @@ public class ProductoAdyacentes2 {
         return producto;
     }
 
+    public double productoAdyacente(double arr[]){
+        double producto = 0;
+
+        for (int i = 0; i < arr.length-1; i++) {
+            if (arr[i]*arr[i+1]>producto)
+                producto = arr[i]*arr[i+1];
+        }
+        return producto;
+    }
+
 
 
 }
