@@ -2,6 +2,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class ProductoAdyacentesTest {
@@ -17,6 +19,10 @@ public class ProductoAdyacentesTest {
 
     @Test
     public void productoAdyacentes() {
+        int[] arreglo = {};
+        assertEquals(p.productoAdyacentes(arreglo),0);
+        int[] arreglo0 = {0};
+        assertEquals(p.productoAdyacentes(arreglo0),0);
         int[] arreglo1 = {1, -4, 2, 2, 5, -1};
         assertEquals(p.productoAdyacentes(arreglo1),10);
         int[] arreglo2 = {1, 2, -12, 10, -10, -12};
@@ -30,5 +36,8 @@ public class ProductoAdyacentesTest {
         assertEquals(10, a);
         double[] num0 = {1073741823, 1073741823, 1073741545};
         System.out.println(p.productoAdyacentes(num0));
+
+
+
     }
 }
