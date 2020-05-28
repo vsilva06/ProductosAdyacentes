@@ -21,5 +21,7 @@ public class ProductoAdyacentesTest {
         assertEquals(p.productoAdyacentes(arreglo1),10);
         int[] arreglo2 = {1, 2, -12, 10, -10, -12};
         assertEquals(p.productoAdyacentes(arreglo2),120);
+        int[] arreglo3 = {500, -500, -200, 4, 50, 1000 ,12 ,-12};
+        assertEquals(p.productoAdyacentes(arreglo3),100000);
     }
 }
