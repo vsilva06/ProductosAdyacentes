@@ -30,5 +30,7 @@ public class ProductoAdyacentesTest {
         assertEquals(10, a);
         double[] num0 = {1073741823, 1073741823, 1073741545};
         System.out.println(p.productoAdyacentes(num0));
+
+
     }
 }

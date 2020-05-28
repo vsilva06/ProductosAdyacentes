@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class ProductoAdyacentes2 {
 
@@ -22,6 +23,14 @@ public class ProductoAdyacentes2 {
     }
 
 
+    public long productoAdyacente(ArrayList<Integer> arr) {
+        long producto = 0;
 
+        for (int i = 0; i < arr.size()-1; i++) {
+            if (arr.get(i)*arr.get(i+1)>producto)
+                producto = arr.get(i)*arr.get(i+1);
+        }
+        return producto;
+    }
 }
 
