@@ -17,7 +17,9 @@ public class ProductoAdyacentesTest {
 
     @Test
     public void productoAdyacentes() {
-        int[] arreglo = {1, -4, 2, 2, 5, -1};
-        assertEquals(p.productoAdyacentes(arreglo),10);
+        int[] arreglo1 = {1, -4, 2, 2, 5, -1};
+        assertEquals(p.productoAdyacentes(arreglo1),10);
+        int[] arreglo2 = {1, 2, -12, 10, -10, -12};
+        assertEquals(p.productoAdyacentes(arreglo2),120);
     }
 }
