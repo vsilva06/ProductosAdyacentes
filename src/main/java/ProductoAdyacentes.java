@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class ProductoAdyacentes {
 
     
@@ -88,10 +90,29 @@ class ProductoAdyacentes {
             for (int i=1; i<arr.length-1; i++) {
                 if (arr[i]*arr[i+1] > mayor) {
                     mayor = arr[i] * arr[i+1];
+
                 }
             }
         }
         return mayor;
+    }
+
+    public long productoAdyacente(ArrayList<Integer> arr) {
+        long producto = 0;
+
+        if (arr == null) {
+            System.out.println("Error, arreglo vacio");
+            return 0;
+        }else if (arr.size()<2){
+            System.out.println("Error, arreglo muy corto");
+            return 0;
+        }
+
+        for (int i = 0; i < arr.size()-1; i++) {
+            if (arr.get(i)*arr.get(i+1)>producto)
+                producto = arr.get(i)*arr.get(i+1);
+        }
+        return producto;
     }
 
 }
