@@ -1,3 +1,5 @@
+import javax.management.StringValueExp;
+
 class ProductoAdyacentes {
 
 
@@ -16,7 +18,7 @@ class ProductoAdyacentes {
     }
 
     private boolean validacion(int[] arr) {
-        
+
         if (arr == null) {//arreglo vacion retorna error
             System.out.println("Error, arreglo vacio");
             return false;
@@ -26,18 +28,6 @@ class ProductoAdyacentes {
         } else {
             return true;
         }
-    }
-    void productoAdyacentes(float[] arr){
-        System.out.println("por favor ingrese un arreglo de enteros");
-    }
-    void productoAdyacentes(double[] arr){
-        System.out.println("por favor ingrese un arreglo de enteros");
-    }
-    void productoAdyacentes(long[] arr){
-        System.out.println("por favor ingrese un arreglo de enteros");
-    }
-    void productoAdyacentes(String[] arr){
-        System.out.println("por favor ingrese un arreglo de números enteros");
     }
 
 
