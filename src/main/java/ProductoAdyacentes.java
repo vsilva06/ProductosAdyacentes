@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 class ProductoAdyacentes {
 
     
@@ -29,7 +27,6 @@ class ProductoAdyacentes {
         }else{
             return true;
         }
-
     }
 
 }
