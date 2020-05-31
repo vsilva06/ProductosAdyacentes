@@ -29,6 +29,8 @@ public class ProductoAdyacentesTest {
         int[] arreglo2 = {1, 2, -12, 10, -10, -12};
         assertEquals(p.productoAdyacentes(arreglo2), 120);
         int[] arreglo3 = {500, -500, -200, 4, 50, 1000, 12, -12};
+        int[] arreglo4= null;
+        p.productoAdyacentes(arreglo4);
         assertEquals(p.productoAdyacentes(arreglo3), 100000);
         int[] arr2 = {1, -1, 1, -1, 1, -1};
         assertEquals(-1, p.productoAdyacentes(arr2));
@@ -37,6 +39,7 @@ public class ProductoAdyacentesTest {
         assertEquals(10, p.productoAdyacentes(arr1));
         double[] num0 = {1073741823, 1073741823, 1073741545};
         System.out.println(p.productoAdyacentes(num0));
+
 
 
     }

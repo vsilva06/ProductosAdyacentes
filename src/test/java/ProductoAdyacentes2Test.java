@@ -22,7 +22,7 @@ public class ProductoAdyacentes2Test {
     @Test
     public void productoAdyacente() {
        double[] num0 = {1073741823, 1073741823, 1073741545};
-        System.out.println(c.productoAdyacente(num0));
+        System.out.println(c.productoAdyacentes(num0));
 
         ArrayList<Integer> arr= new ArrayList<Integer>();
         arr.add(1);
