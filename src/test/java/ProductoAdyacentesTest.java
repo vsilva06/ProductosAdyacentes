@@ -29,7 +29,7 @@ public class ProductoAdyacentesTest {
         int[] arreglo2 = {1, 2, -12, 10, -10, -12};
         assertEquals(p.productoAdyacentes(arreglo2), 120);
         int[] arreglo3 = {500, -500, -200, 4, 50, 1000, 12, -12};
-        int[] arreglo4= null;
+        int[] arreglo4 = null;
         p.productoAdyacentes(arreglo4);
         assertEquals(p.productoAdyacentes(arreglo3), 100000);
         int[] arr2 = {1, -1, 1, -1, 1, -1};
@@ -37,8 +37,6 @@ public class ProductoAdyacentesTest {
         int[] arr1 = {1, -4, 2, 2, 5, -1};
         int[] a = {1, 2, 69, 8, 6};
         assertEquals(10, p.productoAdyacentes(arr1));
-
-
 
 
     }
