@@ -37,7 +37,11 @@ public class ProductoAdyacentesTest {
         int[] arr1 = {1, -4, 2, 2, 5, -1};
         int[] a = {1, 2, 69, 8, 6};
         assertEquals(10, p.productoAdyacentes(arr1));
-
-
+        float[] arreglo5 = {1,2,3};
+        double[] arreglo6 = {1,2,3};
+        long[] arreglo7 = {1,2,3};
+        p.productoAdyacentes(arreglo5);
+        p.productoAdyacentes(arreglo6);
+        p.productoAdyacentes(arreglo7);
     }
 }

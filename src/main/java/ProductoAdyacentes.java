@@ -26,5 +26,16 @@ class ProductoAdyacentes {
             return true;
         }
     }
+    void productoAdyacentes(float[] arr){
+        System.out.println("por favor ingrese un arreglo de enteros");
+    }
+    void productoAdyacentes(double[] arr){
+        System.out.println("por favor ingrese un arreglo de enteros");
+    }
+    void productoAdyacentes(long[] arr){
+        System.out.println("por favor ingrese un arreglo de enteros");
+    }
+
+
 
 }
