@@ -20,7 +20,7 @@ public class ProductoAdyacentesTest {
 
     @Test
     public void productoAdyacentes() {
-        int[] arreglo = {};
+       /* int[] arreglo = {};
         assertEquals(p.productoAdyacentes(arreglo), 0);
         int[] arreglo0 = {0};
         assertEquals(p.productoAdyacentes(arreglo0), 0);
@@ -40,8 +40,14 @@ public class ProductoAdyacentesTest {
         float[] arreglo5 = {1,2,3};
         double[] arreglo6 = {1,2,3};
         long[] arreglo7 = {1,2,3};
+        String[] arreglo8={"a","b"};
         p.productoAdyacentes(arreglo5);
         p.productoAdyacentes(arreglo6);
         p.productoAdyacentes(arreglo7);
+        p.productoAdyacentes(arreglo8);*/
+
+        int[] arreglo9={'2',2,'3'};
+        System.out.println(p.productoAdyacentes(arreglo9));
+
     }
 }

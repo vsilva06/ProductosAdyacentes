@@ -16,6 +16,7 @@ class ProductoAdyacentes {
     }
 
     private boolean validacion(int[] arr) {
+        
         if (arr == null) {//arreglo vacion retorna error
             System.out.println("Error, arreglo vacio");
             return false;
@@ -35,6 +36,10 @@ class ProductoAdyacentes {
     void productoAdyacentes(long[] arr){
         System.out.println("por favor ingrese un arreglo de enteros");
     }
+    void productoAdyacentes(String[] arr){
+        System.out.println("por favor ingrese un arreglo de números enteros");
+    }
+
 
 
 
