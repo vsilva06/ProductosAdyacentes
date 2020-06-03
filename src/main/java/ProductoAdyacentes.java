@@ -29,9 +29,11 @@ class ProductoAdyacentes {
             return true;
         }catch (NullPointerException e){
             System.out.println("Error, arreglo vacio");
+            System.out.println(e.getMessage());
             return false;
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Error, arreglo muy corto");
+            System.out.println(e.getMessage());
             return false;
         }
 
