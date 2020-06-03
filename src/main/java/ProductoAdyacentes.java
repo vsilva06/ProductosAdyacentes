@@ -24,14 +24,16 @@ class ProductoAdyacentes {
     }
 
     private boolean validacion(int[] arr) {
-        if (arr == null) {//arreglo vacio retorna error
+        try{
+            int a = arr[0];
+            return true;
+        }catch (NullPointerException e){
             System.out.println("Error, arreglo vacio");
             return false;
-        } else if (arr.length < 1) {// arreglo muy corto retorna error
+        }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Error, arreglo muy corto");
             return false;
-        } else {
-            return true;
         }
+
     }
 }
